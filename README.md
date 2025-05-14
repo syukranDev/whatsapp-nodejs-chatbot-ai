@@ -71,6 +71,7 @@ The app will listen on `http://0.0.0.0:5001/` (or the port set in your `.env`).
 ### 2. Using ngrok for Webhook Testing
 
 WaSenderAPI requires a publicly accessible URL for webhook events. Use [ngrok](https://ngrok.com/) to expose your local server:
+
 ```bash
 ngrok http 5001
 ```
@@ -78,9 +79,9 @@ ngrok http 5001
 
 Copy the generated public URL (e.g., `https://xxxx.ngrok.io`) and set your webhook URL in WaSenderAPI dashboard as:
 
+```bash
 https://xxxx.ngrok.io/webhook
-
-text
+```
 
 ### 3. Production Deployment
 
@@ -111,9 +112,9 @@ Edit the `persona.json` file to customize the AI persona and base prompt. For ex
 "base_prompt": "You are a helpful and concise AI assistant replying in a WhatsApp chat. Do not use Markdown formatting. Keep your answers short, friendly, and easy to read. If your response is longer than 3 lines, split it into multiple messages using \n every 3 lines. Each \n means a new WhatsApp message. Avoid long paragraphs or unnecessary explanations.",
 "description": "You are a friendly WhatsApp assistant. Keep your responses concise and clear."
 }
-```bash
+```
 
-This influences how Gemini AI generates replies.
+Note: This influences how Gemini AI generates replies.
 
 ## 📊 Logging and Error Handling
 
