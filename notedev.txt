@@ -1,0 +1,38 @@
+// sample json by gemini
+
+{
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "Hey! Ready to assist you. Just let me know what you need.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.5732694864273071
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 189,
+      "candidatesTokenCount": 16,
+      "totalTokenCount": 205,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 189
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 16
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash"
+  }
+}
