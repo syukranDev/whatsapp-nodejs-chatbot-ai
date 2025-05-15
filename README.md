@@ -1,6 +1,8 @@
 # Affordable WhatsApp AI Chatbot Built with Node.js: Just $6/month
 
-Create a powerful WhatsApp chatbot powered by Google's Gemini AI for just $6/month (WaSenderAPI subscription) plus Google's free Gemini API tier (1500 requests/month). This Node.js-based solution uses Express.js to handle incoming messages via WaSenderAPI webhooks and leverages Gemini's advanced AI capabilities to generate intelligent, conversational responses.
+Create a powerful WhatsApp chatbot powered by Google's Gemini AI for just $6/month (WaSenderAPI subscription) plus Google's free Gemini API tier (1500 requests/month). 
+
+This Node.js-based solution uses Express.js to handle incoming messages via WaSenderAPI webhooks and leverages Gemini's advanced AI capabilities to generate intelligent, conversational responses.
 
 ## 💰 Cost-Effective Solution
 
